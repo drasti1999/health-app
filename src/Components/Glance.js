@@ -4,7 +4,7 @@ export default function Glance() {
   return (
     <>
       <div class="container-fluid mt-5 mb-5" style={{ backgroundColor: "#184E82" }}>
-        <div class="row">
+        <div class="row d-xs-flex justify-content-xs-center m-xs-0 p-xs-0 d-sm-flex justify-content-sm-center w-auto">
           <div class="col-md-6 my-3 col-sm-6" id="doc">
             <div className="row">
               <h1 className="offset-md-3 text-white">Meet Our Most</h1>
@@ -12,13 +12,13 @@ export default function Glance() {
                 Experienced Doctors
               </h1>
             </div>
-            <div className="row offset-md-3 ">
+            <div className="row offset-md-3">
               <button className="button-white border-0" style={{width: "fit-content",padding: "10px"}} id="btnDoc">
                 Meet Our Team
               </button>
             </div>
           </div>
-          <div class="col offset-md-2" id="imgDoc">
+          <div class="col offset-lg-2 d-md-flex justify-content-md-center d-sm-flex justify-content-sm-center d-xs-flex justify-content-xs-center" id="imgDoc">
             <img
               src="./images.jpg" 
               alt=""

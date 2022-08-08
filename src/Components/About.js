@@ -3,7 +3,7 @@ import "../App.css";
 
 export default function About() {
   return (
-    <div className="container-fluid mt-5">
+    <div className="container-fluid">
       <div className="offset-1">
         <div className="row">
           <h4 align="left" className="fw-bolder mt-5" style={{ color: "#184E82" }}>

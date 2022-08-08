@@ -76,12 +76,15 @@
   text-align: center;
 }
 
-.container-custom:hover img {
-  opacity: 0.6;
-}
+@media screen and (min-width: 1440px) {
 
-.container-custom:hover .middle {
-  opacity: 1;
+  .container-custom:hover img {
+    opacity: 0.6;
+  }
+
+  .container-custom:hover .middle {
+    opacity: 1;
+  }
 }
 
 .text {
@@ -91,29 +94,18 @@
   padding: 0px 0px;
 }
 
-.bg-no-overlay {
-  background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  color: #fff;
-  height: 450px;
-  padding-top: 50px;
-}
-
 /*-------------------------------------------------------*/
 /* the slides*/
 .slick-slide {
-  /* margin: 13px 0px; */
+  margin: 10px 0px;
   width: auto;
-  padding-left: 1%;
 }
 
-/* the parent */
-/*
-.slick-list {
-	margin: 0 0px;
-} */
+.slick-track {
+  background-color: "#E6E6E6";
+}
+
+
 .slick-prev:before {
   color: #184E82 !important;
   background-color: #eee;
@@ -124,144 +116,44 @@
   background-color: #eee;
 }
 
-@media (min-width:1024px) {
-  /* #img-health {
-    margin-left: 59%;
-  } */
-}
+/*-------------------------------------------------------*/
+@media only screen and (max-width:375px) {
+  .slick-slide {
+    padding-left: 40px;
+  }
 
-@media only screen  and (min-width:329px)and (max-width:350px)
-{
-  .slick-slide
-  {
-    padding: 15%;
+  .margin-top {
+    margin-top: 35%;
   }
-  /* #hospital-contact{
-    margin-top:10px;
-    margin-left: 30%;
-  } */
 }
-@media (min-width:450px) and (max-width:768px) {
-  /* .contact-container {
-    width: fit-content;
+@media only screen and (min-width:375px) and (max-width:1024px){
+  .slick-slide {
+    padding-left: 60px;
   }
-  #img-health {
-    margin-left:70% !important;
-    margin-top:10px;
-    margin-bottom: 10px;
-  }
-  #social-media {
-    float: none;
-    width: 30%;
-    text-align: center;
-  }
-   #hospital-name{
-    margin-left: 150px;
-  }
-  #hospital-contact{
-    margin-left: 20px;
-  } */
 }
-@media (min-width: 320px) and (max-width:325px) {
-  /* #hospital-name {
-    margin-left: 10%;
-  }
-  #hospital-contact {
-    margin-top: 10px;
-    margin-left: 20%;
-  }
-  #img-health {
-    margin-left: 45% !important;
-    margin-top:10px;
-  }
-  #social-media {
-    float: none;
-    margin-top: 10px;
-    text-align: center;
-    margin-left: -60px;
-  } */
-}
-@media (min-width:325px) and (max-width:450px) {
-  /* #img-health {
-    margin-top: 10px;
-    margin-left: 90% !important;
-    margin-bottom: 10px;
-  }
-  #social-media {
-    float: none;
-    width: 50%;
-    margin-top: 10px;
-    text-align: center;
-  }
-  #hospital-contact{
-    margin-left: 1px;
-  } */
-}
+@media only screen and (max-width:576px) {
 
-@media only screen and (max-width:1024px) { 
+  #hospital-name,
   #hospital-contact {
-    margin-top: 8px;
-    margin-left: 0px;
-  }
-  /* #hospital-contact  {
-    margin-top: 10px;
-    margin-left:0px;
-  }
-  .img1
-  {
-    margin: 0;
-    left: 50%;
-  } */
+    /* font-size: 10px; */
+    font-size: 10px;
+    border-radius: 14px 0px 14px 0px;
+  } 
 }
-@media only screen and (max-width:768px) {
-  .margin-top {
-    margin-top: 285px !important;
-    width: 100% !important;
-  }
-  #img-health {
-    margin-top: 20px;
-  }
-  #hospital-contact {
-    margin-top: 15px;
-  }
-}
-@media only screen and (min-width:450px) and (max-width:768px) {
-  .margin-top {
-    margin-top: 248px !important;
-    width: 100% !important;
-  }
-}
-@media only screen and (min-width:450px) and (max-width:768px) {
-  .margin-top {
-    margin-top: 248px !important;
-    width: 100% !important;
-  }
-}
-@media only screen and (min-width:450px) and (max-width:768px) {
-  .margin-top {
-    margin-top: 206px !important;
-    width: 100% !important;
-  }
-}
-@media only screen and (min-width:325px) and (max-width:475px) {
-  .margin-top {
-    margin-top: 248px !important;
-    width: 100% !important;
-  }
-}
-/* .img1
-{
-  float: right;
-  margin-top: 0px;
-  border-radius: 100px 0px;
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-} */
 
 @media (min-width: 1024px) {
-  .margin-top, .image-custom {
-    margin-top: 67px !important;
-    width: 100% !important;
+
+  .margin-top,
+  .image-custom {
     height: 400px;
+  }
+  .slick-slide {
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (min-width:425px) and (max-width:600px) {
+  .margin-top {
+    margin-top: 22%;
   }
 }

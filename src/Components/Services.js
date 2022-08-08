@@ -65,7 +65,7 @@ export default class Services extends Component {
         ]
       };
     return (
-      <div className="w-100 px-4 pt-5 bg-gray">
+      <div className="w-auto px-5 pt-5 bg-gray">
        <div className="container-fluid mt-4">
           <div className="offset-md-1">
             <h4

@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="col-1">
               <i className="bi bi-envelope mt-2 fs-9 fw-bolder text-white"></i>
             </div>
-            <div className="col fs-9">hospitalname@gmail.com</div>
+            <div className="col fs-9">mananhospital@gmail.com</div>
           </div>
           <div className="row">
             <div className="col  text-white" id="social-media">

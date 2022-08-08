@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home() {
   return (
-    <div className="container-fluid mt-5 mb-5 margin-top">
+    <div className="container-fluid margin-top">
       <div
         id="carouselExampleCaptions"
         class="carousel slide"
