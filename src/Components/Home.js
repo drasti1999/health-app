@@ -32,7 +32,7 @@ export default function Home() {
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="new1.jpg" class="d-block w-100 image-responsive image-custom" alt="..." />
+            <img src="new1.jpg" class="d-block image-responsive image-custom" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Health App</h5>
               <p>

@@ -140,7 +140,9 @@
     border-radius: 14px 0px 14px 0px;
   } 
 }
-
+.image-custom{
+  width: 100%;
+}
 @media (min-width: 1024px) {
 
   .margin-top,

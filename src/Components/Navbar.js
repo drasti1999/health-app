@@ -8,7 +8,7 @@ export default function Navbar() {
         style={{ backgroundColor: "#184E82" }}
       >
         <div className="row ">
-          <div className="col-lg-4 col-xl-4 col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 d-flex justify-content-center col-xl-4 col-md-4 col-sm-6 col-xs-12">
             <div className="row float-lg-start">
               <div
                 className="p-2 col-lg-4 col-md-3 col-sm-12 mx-xl-1 col-xs-6 fw-semibold button-white mb-md-1"

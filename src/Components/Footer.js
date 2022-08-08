@@ -42,7 +42,7 @@ export default function Footer() {
             <div className="col fs-9">mananhospital@gmail.com</div>
           </div>
           <div className="row">
-            <div className="col  text-white" id="social-media">
+            <div className="col-12 mb-xs-2 text-white" id="social-media">
               <div>
                
                   <i className="fa-brands fa-facebook-f fs-9 mx-2"></i>
@@ -61,7 +61,7 @@ export default function Footer() {
           <div className="row">
             <h5 className="text-white text-uppercase">Quick Links</h5>
           </div>
-          <div className="row mt-2 mb-2" style={{ marginRight: "30px" }}>
+          <div className="row mt-2 mb-2">
             <div className="col fs-9">
               <a
                 href=""

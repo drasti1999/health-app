@@ -3,7 +3,7 @@ import "../App.css";
 
 export default function About() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid mt-1">
       <div className="offset-1">
         <div className="row">
           <h4 align="left" className="fw-bolder mt-5" style={{ color: "#184E82" }}>
@@ -87,7 +87,7 @@ export default function About() {
               </div>
             </div>
             <div
-              className="p-2 text-white w-auto"
+              className="d-flex row p-2 text-white w-auto"
               id="StickySocial"
               style={{
                 transform: "translate(-50%)",
