@@ -10,7 +10,7 @@ export default function Glance() {
               <h1 className="offset-md-3 text-white">Meet Our Most</h1>
               <h1 className="offset-md-3 text-white " style={{ wordWrap: "break-word" }}>
                 Experienced Doctors
-              </h1>
+              </h1> 
             </div>
             <div className="row offset-md-3 d-flex justify-content-center">
               <button className="button-white border-0" style={{width: "fit-content",padding: "10px"}} id="btnDoc">
