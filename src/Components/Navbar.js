@@ -34,8 +34,8 @@ export default function Navbar() {
               ></img>
             </a>
           </div>
-          <div className="col-lg-3 col-xl-4 col-md-5 col-sm-5 col-xs-12 col-xs-visibility-hidden ">
-          <ul class="d-flex g-0 m-0 p-0 justify-content-center text-white float-lg-end float-md-end  float-sm-end">
+          <div className="col-lg-3 col-xl-4 col-md-5 col-sm-5 col-xs-12">
+          <ul class="d-flex g-0 m-0 p-0 justify-content-center text-white float-lg-end float-md-end  float-sm-end ">
                 <div className="row">
                   <div className="col">
                     <i className="fa-brands fa-facebook-f"></i>

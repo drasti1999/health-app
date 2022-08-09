@@ -121,9 +121,14 @@
   .slick-slide {
     padding-left: 40px;
   }
-
   .margin-top {
     margin-top: 35%;
+  }  
+ 
+}
+@media only screen and (min-width:320px) and (max-width:425px){
+  #social-contacts {
+    visibility:hidden;
   }
 }
 @media only screen and (min-width:375px) and (max-width:1024px){
