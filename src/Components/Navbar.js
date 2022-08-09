@@ -32,8 +32,8 @@ export default function Navbar() {
               <img
                 src="/health.png"
                 className="img-thumbnail bg-transparent mt-xs-5"
-                height={40}
-                width={40}
+                height={"40px"}
+                width={"40px"}
               ></img>
             </a>
           </div>

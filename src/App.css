@@ -131,7 +131,10 @@
 #health {
   visibility: hidden !important;
 }
-
+.carousel-control-prev-icon ,
+.carousel-control-next-icon{
+  background-color: #184E82 !important;
+}
 @media only screen and (min-width:320px) and (max-width:431px) {
   #hospital-contact {
     /* visibility:hidden; */
@@ -206,7 +209,7 @@
 
   #hospital-name,
   #hospital-contact {
-    font-size: 10px !important;
+    font-size: 13px !important;
   }
 
   .margin-top,
