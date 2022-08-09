@@ -15,33 +15,33 @@ export default function Footer() {
               Manan Hospital  
             </h5>
           </div>
-          <div className="row mb-2">
-            <div className="col-1">
+          <div className="row  dataRow mb-2">
+            <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
               <i
                 className="fa fa-location-dot mt-2 fw-bolder text-white"
                 aria-hidden="true"
               ></i>
             </div>
-            <div className="col-8 fs-9">
+            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">
               Nidhi Hospital, Stadium Commerce College Road
             </div>
           </div>
-          <div className="row mb-2">
-            <div className="col-1">
+          <div className="row  dataRow mb-2">
+          <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
               <i
                 className="fa fa-phone mt-2 fw-bolder text-white"
                 aria-hidden="true"
               ></i>
             </div>
-            <div className="col fs-9">+91 90123 45678</div>
+            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">+91 90123 45678</div>
           </div>
-          <div className="row mb-2">
-            <div className="col-1">
+          <div className="row dataRow mb-2">
+          <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
               <i className="bi bi-envelope mt-2 fs-9 fw-bolder text-white"></i>
             </div>
-            <div className="col fs-9">mananhospital@gmail.com</div>
+            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 w-sm-auto col-xs-8 fs-9 col-cont">mananhospital@gmail.com</div>
           </div>
-          <div className="row">
+          <div className="row ">
             <div className="col-12 mb-xs-2 text-white" id="social-media">
               <div>
                
