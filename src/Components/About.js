@@ -10,7 +10,7 @@ export default function About() {
             About
           </h4>
           <div className="row">
-            <div className="col-md-7 text-left fs-5 d-inline-flex">
+            <div className="col-md-7 col-lg-7 col-sm-7 text-left fs-5 d-inline-flex">
               <p style={{ textAlign: "justify",textJustify: "inter-word"}}>
                 <font color="#184E82" className="fw-bold">
                   Carson Tahoe Health 
@@ -31,7 +31,7 @@ export default function About() {
           </button>
               </p>
             </div>
-            <div className="col-md-4 text-right d-inline-flex">
+            <div className="col-md-5 col-sm-5 col-lg-5 text-right d-inline-flex">
               <div
                 id="carouselExampleControls"
                 className="carousel slide"
