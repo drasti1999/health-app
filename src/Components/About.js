@@ -86,31 +86,31 @@ export default function About() {
                 </button>
               </div>
             </div>
-            {/* <div
-              className="d-flex row p-2 text-white w-auto"
+            <div
+              className="d-flex row p-0 text-white w-auto"
               id="StickySocial"
               style={{
                 transform: "translate(-50%)",
-                left: "98%",
+                left: "100%",
                 top: "50%",
                 position: "fixed",
                 backgroundColor: "#184E82",
                 height: "fit-content",
               }}
             >
-              <div className="col">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <i className="fa-brands fa-facebook-f"></i>
               </div>
-              <div className="col">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <i className="fa-brands fa-instagram"></i>
               </div>
-              <div className="col">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <i className="fa-brands fa-twitter"></i>
               </div>
-              <div className="col">
+              <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <i className="fa-brands fa-linkedin-in"></i>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

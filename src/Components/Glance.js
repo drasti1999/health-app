@@ -3,26 +3,28 @@ import React from "react";
 export default function Glance() {
   return (
     <>
-      <div class="container-fluid mt-5 mb-5" style={{ backgroundColor: "#184E82" }}>
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-6 my-3 col-sm-6" id="doc">
-            <div className="row d-flex justify-content-center">
-              <h1 className="offset-md-3 text-white">Meet Our Most</h1>
-              <h1 className="offset-md-3 text-white " style={{ wordWrap: "break-word" }}>
-                Experienced Doctors
-              </h1> 
-            </div>
-            <div className="row offset-md-3 d-flex justify-content-center">
-              <button className="button-white border-0" style={{width: "fit-content",padding: "10px"}} id="btnDoc">
-                Meet Our Team
-              </button>
+      <div
+        class="section mt-5 mb-5"
+        style={{ backgroundColor: "#184E82" }}
+      >
+        <div class="row w-100">
+          <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 my-3"
+            id="doc"
+          >
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+                <h1 class="offset-lg-2 offset-md-3 h1 text-white">Meet Our Most</h1>
+                <h1 class="offset-lg-2  offset-md-3 h1 text-white">Experienced Doctors</h1>
+              </div>
             </div>
           </div>
-          <div class="col offset-md-1 d-flex justify-content-center" id="imgDoc">
+          <div
+            class="col-md-6 col-lg-6 col-sm-12 col-xs-12 d-lg-flex justify-content-center"
+          >
             <img
-              src="./images.jpg" 
+              src="./images.jpg"
               alt=""
-              className="mx-sm-5 img1"
+              className="imgDoct"
               style={{ borderRadius: "100px 0px" }}
             />
           </div>
@@ -32,11 +34,7 @@ export default function Glance() {
 
       <div className="container mb-5">
         <div className="row">
-          <h1
-            align="left"
-            className="fw-bolder"
-            style={{ color: "#184E82"}}
-          >
+          <h1 align="left" className="fw-bolder" style={{ color: "#184E82" }}>
             At A Glance
           </h1>
         </div>

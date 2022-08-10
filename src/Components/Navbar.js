@@ -8,8 +8,10 @@ export default function Navbar() {
         style={{ backgroundColor: "#184E82" }}
       >
         <div className="row">
-          <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12" id="FirstCol">
-            <div className="row float-lg-start">
+          <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12"
+            id="FirstCol"
+          >
+            <div className="row float-lg-start" style={{ marginLeft: "6px" }}>
               <div
                 className="p-2 col-lg-4 col-md-3 col-sm-12 mx-xl-1 col-xs-6 fw-semibold button-white mb-md-1"
                 id="hospital-name"
@@ -24,8 +26,7 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-          <div
-            className="col-lg-4 text-center col-xl-4 d-xs-none col-md-2 d-xs-auto"
+          <div className="col-lg-4 text-center col-xl-4 col-sm-1 d-xs-none col-md-2 d-xs-auto"
             id="image-logo"
           >
             <a className="navbar-brand" href="#">
@@ -37,22 +38,25 @@ export default function Navbar() {
               ></img>
             </a>
           </div>
-          <div className="col-lg-3 col-xl-4 col-md-5 col-sm-5 col-xs-0">
+          <div
+            className="col-lg-4 col-xl-4 px-0 col-md-5 col-sm-5 col-xs-0"
+            style={{marginRight:"-6px"}}
+          >
             <ul
               class="d-flex g-0 m-0 p-0 justify-content-center text-white float-lg-end float-md-end  float-sm-end "
               id="socialData"
             >
               <div className="row">
-                <div className="col">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                   <i className="fa-brands fa-facebook-f"></i>
                 </div>
-                <div className="col">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                   <i className="fa-brands fa-instagram"></i>
                 </div>
-                <div className="col">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1">
                   <i className="fa-brands fa-twitter"></i>
                 </div>
-                <div className="col">
+                <div className="col-xl-1 col-lg-1 col-md-1 col-sm-1 col-xs-1 px-3">
                   <i className="fa-brands fa-linkedin-in"></i>
                 </div>
               </div>

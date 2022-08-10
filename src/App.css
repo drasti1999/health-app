@@ -115,12 +115,15 @@
   color: #184E82 !important;
   background-color: #eee;
 }
-
+.slick-initialized .slick-slide{
+  display: flex !important;
+  justify-content: center;
+}
 /*-------------------------------------------------------*/
 @media only screen and (max-width:375px) {
-  .slick-slide {
+  /* .slick-slide {
     padding-left: 40px;
-  }
+  } */
 
   .margin-top {
     margin-top: 35%;
@@ -168,12 +171,21 @@
   #health {
     visibility: visible !important;
   }
+  #doc
+  {
+    display: flex !important;
+    justify-content: center;
+  }
+  .imgDoct{
+    height: 100% !important;
+    width: 100% !important;
+  }
 }
 
 @media only screen and (min-width:375px) and (max-width:1024px) {
-  .slick-slide {
+  /* .slick-slide {
     padding-left: 60px;
-  }
+  } */
 
   #hospital-name,
   #hospital-contact {
@@ -209,23 +221,23 @@
   width: 100%;
 }
 
-@media (min-width: 1024px) {
-
+@media (max-width: 1200px) {
+  
   #hospital-name,
   #hospital-contact {
-    font-size: 13px !important;
+    font-size: 10px !important;
   }
-
+}
+@media (min-width: 1024px) {
   .margin-top,
   .image-custom {
-    /* height: 400px; */
-    height: 418px;
+    height: 85vh;
     margin-top: 56px;
   }
 
-  .slick-slide {
+  /* .slick-slide {
     padding-left: 60px;
-  }
+  } */
 
 }
 
