@@ -6,29 +6,37 @@ export default function About() {
     <div className="container-fluid mt-1 mt-lg-5">
       <div className="offset-1">
         <div className="row">
-          <h4 align="left" className="fw-bolder mt-5" style={{ color: "#184E82" }}>
+          <h4
+            align="left"
+            className="fw-bolder mt-5"
+            style={{ color: "#184E82" }}
+          >
             About
           </h4>
           <div className="row">
             <div className="col-md-7 text-left fs-5 d-inline-flex">
-              <p style={{ textAlign: "justify",textJustify: "inter-word"}}>
+              <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
                 <font color="#184E82" className="fw-bold">
-                  Carson Tahoe Health 
+                  Carson Tahoe Health
                 </font>
-                &nbsp;is a stunning, 352,000 square foot facility that is set on a
-                spacious 80-acre medical campus in North Carson City. The
+                &nbsp;is a stunning, 352,000 square foot facility that is set on
+                a spacious 80-acre medical campus in North Carson City. The
                 beautiful facility includes 159 acute care beds with 153 private
                 rooms, expanded 24-hour emergency services, advanced medical
                 imaging, acclaimed open heart surgery program with a private
                 cardiovascular unit, a 5-star Women & Children’s Center, hybrid
                 OR suite, vascular and catheterization labs, a medical/surgical
                 ICU, short-stay surgery unit, inpatient rehabilitation,
-                medical/oncology, telemetry and much more.<button
-            className="text-white border-0 fs-5 px-4 mx-2"
-            style={{ backgroundColor: "#184E82", borderRadius: "5px 0px" }}
-          >
-            Know More
-          </button>
+                medical/oncology, telemetry and much more.
+                <button
+                  className="text-white border-0 fs-5 px-4 mx-2"
+                  style={{
+                    backgroundColor: "#184E82",
+                    borderRadius: "5px 0px",
+                  }}
+                >
+                  Know More
+                </button>
               </p>
             </div>
             <div className="col-md-4 text-right d-inline-flex">
@@ -37,24 +45,24 @@ export default function About() {
                 className="carousel slide"
                 data-bs-ride="carousel"
               >
-                <div className="carousel-inner">
+                <div className="carousel-inner slider">
                   <div className="carousel-item active">
                     <img
-                      className="d-block w-100"
+                      className="d-block h-100 w-100"
                       src="./hospital1.jpg"
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
-                      className="d-block w-100"
+                      className="d-block h-100 w-100"
                       src="./hospital2.jpg"
                       alt="First slide"
                     />
                   </div>
                   <div className="carousel-item">
                     <img
-                      className="d-block w-100"
+                      className="d-block h-100 w-100"
                       src="./hospital3.jpg"
                       alt="First slide"
                     />
@@ -94,7 +102,7 @@ export default function About() {
                 left: "100%",
                 top: "50%",
                 position: "fixed",
-                backgroundColor: "#184E82"
+                backgroundColor: "#184E82",
               }}
             >
               <div className="col-lg-12 col-md-12 col-sm-12">

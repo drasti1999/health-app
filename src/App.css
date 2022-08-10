@@ -200,7 +200,11 @@
     margin-top: 56px;
   } */
 }
-
+.slider
+{
+  height: 400px !important;
+  width: 600px !important;
+}
 .image-custom {
   width: 100%;
 }
