@@ -100,6 +100,7 @@ export default class Services extends Component {
                 <div>
                   <img
                     src="https://img.icons8.com/ios-filled/50/000000/person-female--v1.png"
+                    style={{marginLeft:"5px"}}
                     height={100}
                     width={100}
                   />
