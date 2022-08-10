@@ -3,115 +3,130 @@ import React from "react";
 export default function Footer() {
   return (
     <>
-    <div
-      className="container-fluid mt-3 pt-5 pb-5 px-sm-4"
-      style={{ backgroundColor: "#184E82" }}
-    >
-      <div className="row mx-lg-5 text-white"  style={{wordWrap: "break-word"}}>
-        <div className="col-sm-4">
-          <div className="row-2 mb-2">
-            <h5 className="text-white fw-bolder">
-              <i className="fa fa-plus "></i>
-              Manan Hospital  
-            </h5>
-          </div>
-          <div className="row  dataRow mb-2">
-            <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
-              <i
-                className="fa fa-location-dot mt-2 fw-bolder text-white"
-                aria-hidden="true"
-              ></i>
+      <div
+        className="container-fluid mt-3 pt-5 pb-5 px-sm-4"
+        style={{ backgroundColor: "#184E82" }}
+      >
+        <div
+          className="row mx-lg-5 text-white"
+          style={{ wordWrap: "break-word" }}
+        >
+          <div className="col-sm-4">
+            <div className="row mb-2">
+              <div className="col-sm-1 col-md-1 col-lg-1 col-xs-1 col-xl-1">
+                <h5 className="text-white fw-bolder">
+                  <i className="fa fa-plus "></i>
+                  {/* Manan Hospital */}
+                </h5>
+              </div>
+              <div className="col-lg-6 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">
+                <h5 className="text-white fw-bolder">Manan Hospital</h5>
+              </div>
             </div>
-            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">
-              Nidhi Hospital, Stadium Commerce College Road
+            <div className="row  dataRow mb-2">
+              <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
+                <i
+                  className="fa fa-location-dot mt-2 fw-bolder text-white"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">
+                Nidhi Hospital, Stadium Commerce College Road
+              </div>
             </div>
-          </div>
-          <div className="row  dataRow mb-2">
-          <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
-              <i
-                className="fa fa-phone mt-2 fw-bolder text-white"
-                aria-hidden="true"
-              ></i>
+            <div className="row  dataRow mb-2">
+              <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
+                <i
+                  className="fa fa-phone mt-2 fw-bolder text-white"
+                  aria-hidden="true"
+                ></i>
+              </div>
+              <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">
+                +91 90123 45678
+              </div>
             </div>
-            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 col-xs-8 fs-9 col-cont">+91 90123 45678</div>
-          </div>
-          <div className="row dataRow mb-2">
-          <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
-              <i className="bi bi-envelope mt-2 fs-9 fw-bolder text-white"></i>
+            <div className="row dataRow mb-2">
+              <div className="col-sm-1 col-lg-1 col-md-1 col-xs-1 col-xl-1">
+                <i className="bi bi-envelope mt-2 fs-9 fw-bolder text-white"></i>
+              </div>
+              <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 w-sm-auto col-xs-8 fs-9 col-cont">
+                mananhospital@gmail.com
+              </div>
             </div>
-            <div className="col-lg-8 col-xl-8 col-md-8 col-sm-8 w-sm-auto col-xs-8 fs-9 col-cont">mananhospital@gmail.com</div>
-          </div>
-          <div className="row ">
-            <div className="col-12 mb-xs-2 text-white" id="social-media">
-              <div>
-               
+            <div className="row dataRow mx-0">
+              <div className="col-xl-12 col-md-12 col-lg-12 col-sm-12 col-xs-12 mb-xs-2 text-white" id="social-media">
+                <div>
                   <i className="fa-brands fa-facebook-f fs-9 mx-2"></i>
-              
+
                   <i className="fa-brands fa-instagram fs-9 mx-2"></i>
-               
+
                   <i className="fa-brands fa-twitter fs-9 mx-2"></i>
-               
+
                   <i className="fa-brands fa-linkedin-in fs-9 mx-2"></i>
-               
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="col">
-          <div className="row">
-            <h5 className="text-white text-uppercase">Quick Links</h5>
-          </div>
-          <div className="row mt-2 mb-2">
-            <div className="col fs-9">
-              <a
-                href=""
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  paddingBottom: "2",
-                  marginRight:"10px"
-                }}
-              ><span style={{borderBottom: "3px solid gray"}}>
-                About</span>
-              </a>
-           
-              <a
-                href=""
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  paddingBottom: "2",
-                  marginRight:"10px"
-                }}
-              ><span style={{borderBottom: "3px solid gray"}}>
-                Departments</span>
-              </a>
-           
-              <a
-                href=""
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  paddingBottom: "2",
-                  marginRight:"10px"
-                }}
-              ><span style={{borderBottom: "3px solid gray"}}>
-                Doctors</span>
-              </a>
-           
-              <a
-                href=""
-                style={{
-                  color: "white",
-                  textDecoration: "none",
-                  paddingBottom: "2",
-                  marginRight:"10px"
-                }}
-              ><span style={{borderBottom: "3px solid gray"}}>
-                Gallery</span>
-              </a>
-           
-             
+          <div className="col">
+            <div className="row">
+              <h5 className="text-white text-uppercase">Quick Links</h5>
+            </div>
+            <div className="row mt-2 mb-2">
+              <div className="col fs-9">
+                <a
+                  href=""
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                    paddingBottom: "2",
+                    marginRight: "10px",
+                  }}
+                >
+                  <span style={{ borderBottom: "3px solid gray" }}>About</span>
+                </a>
+
+                <a
+                  href=""
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                    paddingBottom: "2",
+                    marginRight: "10px",
+                  }}
+                >
+                  <span style={{ borderBottom: "3px solid gray" }}>
+                    Departments
+                  </span>
+                </a>
+
+                <a
+                  href=""
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                    paddingBottom: "2",
+                    marginRight: "10px",
+                  }}
+                >
+                  <span style={{ borderBottom: "3px solid gray" }}>
+                    Doctors
+                  </span>
+                </a>
+
+                <a
+                  href=""
+                  style={{
+                    color: "white",
+                    textDecoration: "none",
+                    paddingBottom: "2",
+                    marginRight: "10px",
+                  }}
+                >
+                  <span style={{ borderBottom: "3px solid gray" }}>
+                    Gallery
+                  </span>
+                </a>
+
                 <a
                   href=""
                   style={{
@@ -119,27 +134,37 @@ export default function Footer() {
                     textDecoration: "none",
                     paddingBottom: "2",
                   }}
-                ><span style={{borderBottom: "3px solid gray"}}>Contact</span></a>
-             
+                >
+                  <span style={{ borderBottom: "3px solid gray" }}>
+                    Contact
+                  </span>
+                </a>
+              </div>
             </div>
-          </div>
-          <div className="row fs-9 align-start">
-            <p style={{ textAlign: "justify",textJustify: "inter-word"}}>
-              Carson Taohe Health is a Comprehensive healthcare network
-              featuring two hospitals, two urgent cares,an emergent care center,
-              poutpatient services and a provider network with 21 regional
-              locations. Our reach strtches far and wide, encompassing Carson
-              City, Minden, Gardenerville, Carson Valley, South Reno, Dayton,
-              Lake Tahoe, Yerington, and beyond.
-            </p>
+            <div className="row fs-9 align-start">
+              <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
+                Carson Taohe Health is a Comprehensive healthcare network
+                featuring two hospitals, two urgent cares,an emergent care
+                center, poutpatient services and a provider network with 21
+                regional locations. Our reach strtches far and wide,
+                encompassing Carson City, Minden, Gardenerville, Carson Valley,
+                South Reno, Dayton, Lake Tahoe, Yerington, and beyond.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    
-    <div className="text-center py-3" style={{backgroundColor:"#434343",color:"#c3c4c4",wordSpacing:"2px"}}>
-      2021 &copy; Vaistra Technologies | Site Map | Website Privacy Policy
-    </div>
+
+      <div
+        className="text-center py-3"
+        style={{
+          backgroundColor: "#434343",
+          color: "#c3c4c4",
+          wordSpacing: "2px",
+        }}
+      >
+        2021 &copy; Vaistra Technologies | Site Map | Website Privacy Policy
+      </div>
     </>
   );
 }
