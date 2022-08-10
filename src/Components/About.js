@@ -3,32 +3,44 @@ import "../App.css";
 
 export default function About() {
   return (
-    <div className=" mt-1 mt-lg-5">
+    <div className="mt-1 mt-lg-3">
       <div className="d-flex justify-content-center">
-        <div className="row" style={{width: '85%'}}>
-          <h4 align="left" className="fw-bolder mt-5" style={{ color: "#184E82" }}>
+        <div className="row" style={{ width: "85%" }}>
+          <h4
+            align="left"
+            className="fw-bolder mt-5"
+            style={{ color: "#184E82" }}
+          >
             About
           </h4>
           <div className="row">
             <div className="col-md-7 col-lg-7 col-sm-7 text-left fs-5 d-inline-flex">
-              <p style={{ textAlign: "justify",textJustify: "inter-word"}}>
-                <font color="#184E82" className="fw-bold">
-                  Carson Tahoe Health 
-                </font>
-                &nbsp;is a stunning, 352,000 square foot facility that is set on a
-                spacious 80-acre medical campus in North Carson City. The
-                beautiful facility includes 159 acute care beds with 153 private
-                rooms, expanded 24-hour emergency services, advanced medical
-                imaging, acclaimed open heart surgery program with a private
-                cardiovascular unit, a 5-star Women & Children’s Center, hybrid
-                OR suite, vascular and catheterization labs, a medical/surgical
-                ICU, short-stay surgery unit, inpatient rehabilitation,
-                medical/oncology, telemetry and much more.<button
-            className="text-white border-0 fs-5 px-4 mx-2"
-            style={{ backgroundColor: "#184E82", borderRadius: "5px 0px" }}
-          >
-            Know More
-          </button>
+            
+                <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
+                  <font color="#184E82" className="fw-bold">
+                    Carson Tahoe Health
+                  </font>
+                  &nbsp;is a stunning, 352,000 square foot facility that is set
+                  on a spacious 80-acre medical campus in North Carson City. The
+                  beautiful facility includes 159 acute care beds with 153
+                  private rooms, expanded 24-hour emergency services, advanced
+                  medical imaging, acclaimed open heart surgery program with a
+                  private cardiovascular unit, a 5-star Women & Children’s
+                  Center, hybrid OR suite, vascular and catheterization labs, a
+                  medical/surgical ICU, short-stay surgery unit, inpatient
+                  rehabilitation, medical/oncology, telemetry and much more.
+             
+                <span className="d-flex justify-content-center mt-4">
+                  <button
+                    className="text-white border-0 fs-5 px-4 mx-2"
+                    style={{
+                      backgroundColor: "#184E82",
+                      borderRadius: "5px 0px",
+                    }}
+                  >
+                    Know More
+                  </button>
+                </span>
               </p>
             </div>
             <div className="col-md-5 col-sm-5 col-lg-5 text-right d-inline-flex">
