@@ -87,27 +87,26 @@ export default function About() {
               </div>
             </div>
             <div
-              className="d-flex row p-2 text-white w-auto"
+              className="row p-0 text-white w-auto"
               id="StickySocial"
               style={{
                 transform: "translate(-50%)",
-                left: "99%",
-                top: "70%",
+                left: "100%",
+                top: "50%",
                 position: "fixed",
-                backgroundColor: "#184E82",
-                height: "fit-content",
+                backgroundColor: "#184E82"
               }}
             >
-              <div className="col">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <i className="fa-brands fa-facebook-f"></i>
               </div>
-              <div className="col">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <i className="fa-brands fa-instagram"></i>
               </div>
-              <div className="col">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <i className="fa-brands fa-twitter"></i>
               </div>
-              <div className="col">
+              <div className="col-lg-12 col-md-12 col-sm-12">
                 <i className="fa-brands fa-linkedin-in"></i>
               </div>
             </div>
