@@ -76,14 +76,28 @@
   text-align: center;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
 
   .container-custom:hover img {
     opacity: 0.6;
+    font-size: small;
   }
 
   .container-custom:hover .middle {
     opacity: 1;
+    font-size: small;
+  }
+}
+@media screen and (min-width: 320px) {
+
+  .container-custom:hover img {
+    opacity: 0.6;
+    font-size: small;
+  }
+
+  .container-custom:hover .middle {
+    opacity: 1;
+    font-size: x-small;
   }
 }
 
