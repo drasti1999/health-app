@@ -14,6 +14,11 @@ export default function Glance() {
                 <h1 class="offset-lg-2  offset-md-3 h1 text-white">
                   Experienced Doctors
                 </h1>
+                <div class="offset-lg-2  offset-md-3 text-white">
+                  <div className="p-2 col-lg-4 col-md-3 col-sm-12 mx-xl-1 fs-6 col-xs-6 fw-semibold button-white mb-md-1">
+                    Meet Our Team
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -31,7 +36,11 @@ export default function Glance() {
       <div className="section pb-3 mx-4">
         <div className="row mb-3 w-75 d-flex justify-content-lg-start justify-content-sm-center">
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 align="left" className="fw-bolder offset-lg-1 offset-md-2 offset-3 w-100" style={{ color: "#184E82",fontSize:"30px" }}>
+            <h1
+              align="left"
+              className="fw-bolder offset-lg-1 offset-md-2 offset-3 w-100"
+              style={{ color: "#184E82", fontSize: "30px" }}
+            >
               At A Glance
             </h1>
           </div>

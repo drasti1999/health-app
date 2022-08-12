@@ -3,7 +3,7 @@ import React from "react";
 export default function Home() {
   return (
     <>
-      <div className="container-fluid margin-top p-0 h-100">  
+      <div className="container-fluid margin-top p-0 h-100">
         <div
           id="carouselExampleCaptions"
           class="carousel slide h-100"
@@ -91,6 +91,15 @@ export default function Home() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+        {/* <div>
+            <div className="position-absolute top-100"></div>
+            <button
+              className="btn border-0 rounded-circle float-end"
+              style={{ backgroundColor: "#08E908" }}
+            >
+              <i className="fa-brands fa-whatsapp text-white fs-1"></i>
+            </button>
+          </div> */}
       </div>
     </>
   );
