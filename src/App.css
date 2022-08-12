@@ -80,35 +80,35 @@
 
   .container-custom:hover img {
     opacity: 0.6;
-    font-size: small;
+    font-size: large;
   }
 
   .container-custom:hover .middle {
     opacity: 1;
-    font-size: small;
+    font-size: large;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 982px) {
   .container-custom:hover img {
     opacity: 0.6;
-    font-size: xx-small;
+    font-size: small;
   }
 
   .container-custom:hover .middle {
     opacity: 1;
-    font-size: xx-small;
+    font-size: small;
   }
 }
 @media screen and (min-width: 982px) and (max-width: 770px) {
 
   .container-custom:hover img {
     opacity: 0.6;
-    font-size: xx-small;
+    font-size: small;
   }
 
   .container-custom:hover .middle {
     opacity: 1;
-    font-size: xx-small;
+    font-size: small;
   }
 }
 
