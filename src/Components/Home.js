@@ -91,8 +91,8 @@ export default function Home() {
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        {/* <div>
-            <div className="position-absolute top-100"></div>
+        <div>
+          {/* <div className="position-absolute top-100">
             <button
               className="btn border-0 rounded-circle float-end"
               style={{ backgroundColor: "#08E908" }}
@@ -100,6 +100,7 @@ export default function Home() {
               <i className="fa-brands fa-whatsapp text-white fs-1"></i>
             </button>
           </div> */}
+        </div>
       </div>
     </>
   );
