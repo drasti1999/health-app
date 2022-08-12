@@ -54,7 +54,7 @@ export default function Footer() {
                 mananhospital@gmail.com
               </div>
             </div>
-            <div className="row mb-2">              
+            <div className="row mb-2 socialMedia">              
                 <div className="col-lg-12 col-xl-8 col-md-8 col-sm-8 w-sm-auto col-xs-8 fs-9">
                   <a href="">
                     <i className="fa-brands fa-facebook-f fs-9 text-white"></i>

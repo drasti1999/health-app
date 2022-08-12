@@ -118,7 +118,12 @@
   font-size: medium;
   padding: 0px 0px;
 }
-
+@media screen and (max-width: 487px){
+  .socialMedia
+  {
+    display: none;
+  }
+}
 /*-------------------------------------------------------*/
 /* the slides*/
 .slick-slide {
