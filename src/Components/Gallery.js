@@ -57,7 +57,7 @@ export default function Gallery() {
         {/* <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3"> */}
         <div class="col-11 row g-1">
         {data.data.map((item, index) => (
-          <div class="col-lg-4 col-md-3 mt-1 container-custom" key={index}>
+          <div class="col-lg-4 col-sm-6 col-md-6 mt-1 container-custom" key={index}>
             <img
               src={item.link}
               class="img-thumbnail rounded-3 modal-target"
