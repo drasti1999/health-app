@@ -123,6 +123,7 @@ export default function About() {
                 <i className="fa-brands fa-linkedin-in"></i>
               </div>
             </div>
+              
           </div>
         </div>
       </div>
