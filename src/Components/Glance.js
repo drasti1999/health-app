@@ -30,8 +30,8 @@ export default function Glance() {
       {/* At a glance */}
       <div className="section pb-3 mx-4">
         <div className="row mb-3 w-75 d-flex justify-content-lg-start justify-content-sm-center">
-          <div className="col-lg-12 col-md-12 col-sm-12 h1">
-            <h1 align="left" className="fw-bolder offset-lg-1 offset-md-2 offset-3" style={{ color: "#184E82",fontSize:"30px" }}>
+          <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 align="left" className="fw-bolder offset-lg-1 offset-md-2 offset-3 w-100" style={{ color: "#184E82",fontSize:"30px" }}>
               At A Glance
             </h1>
           </div>

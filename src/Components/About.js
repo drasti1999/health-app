@@ -99,7 +99,7 @@ export default function About() {
               </div>
             </div>
             <div
-              className="d-flex row p-0 text-white w-auto"
+              className="d-flex row p-0 text-white w-auto py-2"
               id="StickySocial"
               style={{
                 transform: "translate(-50%)",
