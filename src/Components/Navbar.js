@@ -8,8 +8,8 @@ export default function Navbar() {
         style={{ backgroundColor: "#184E82" }}
       >
         <div className="row">
-          <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12 d-flex justify-content-center"
-            // id="FirstCol"
+          <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12"
+            id="FirstCol"
           >
             <div className="row float-lg-start" style={{ marginLeft: "6px" }}>
               <div
@@ -40,10 +40,10 @@ export default function Navbar() {
           </div>
           <div
             className="col-lg-4 col-xl-4 px-0 col-md-5 col-sm-5 col-xs-0"
-            style={{marginRight:"-6px"}}
+            // style={{marginRight:"-6px"}}
           >
             <ul
-              class="d-flex g-0 m-0 p-0 justify-content-center text-white float-lg-end float-md-end  float-sm-end "
+              className="d-flex g-0 m-0 p-0 justify-content-center text-white float-lg-end float-md-end  float-sm-end "
               id="socialData"
             >
               <div className="row">

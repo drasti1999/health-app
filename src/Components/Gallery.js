@@ -53,22 +53,22 @@ export default function Gallery() {
           Gallery
         </h4>
       </div>
-      {/* <div class="container-fluid w-100 bg-danger"> */}
-        {/* <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3"> */}
-        <div class="col-11 row g-1">
+      {/* <div className="container-fluid w-100 bg-danger"> */}
+        {/* <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-3"> */}
+        <div className="col-11 row g-1">
         {data.data.map((item, index) => (
-          <div class="col-lg-4 col-sm-6 col-md-6 mt-1 container-custom" key={index}>
+          <div className="col-lg-4 col-sm-6 col-md-6 mt-1 container-custom" key={index}>
             <img
               src={item.link}
-              class="img-thumbnail rounded-3 modal-target"
+              className="img-thumbnail rounded-3 modal-target"
               alt={item.text}
             />
-            <div class="middle">
+            <div className="middle">
               <div>
-                <h6 class="fw-bolder">Health System</h6>
+                <h6 className="fw-bolder">Health System</h6>
               </div>
               <div>
-                <p class="fw-semibold">
+                <p className="fw-semibold">
                   {item.text}
                 </p>
               </div>

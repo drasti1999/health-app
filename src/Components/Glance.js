@@ -3,18 +3,18 @@ import React from "react";
 export default function Glance() {
   return (
     <>
-      <div class="section mt-5 mb-5" style={{ backgroundColor: "#184E82" }}>
-        <div class="row w-100">
-          <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 my-3" id="doc">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
-                <h1 class="offset-lg-2 offset-md-3 h1 text-white">
+      <div className="section mt-5 mb-5" style={{ backgroundColor: "#184E82" }}>
+        <div className="row w-100">
+          <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12 my-3" id="doc">
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-block">
+                <h1 className="offset-lg-2 offset-md-3 h1 text-white">
                   Meet Our Most
                 </h1>
-                <h1 class="offset-lg-2  offset-md-3 h1 text-white">
+                <h1 className="offset-lg-2  offset-md-3 h1 text-white">
                   Experienced Doctors
                 </h1>
-                <div class="offset-lg-2  offset-md-3 text-white">
+                <div className="offset-lg-2  offset-md-3 text-white">
                   <div className="p-2 col-lg-4 col-md-3 col-sm-12 mx-xl-1 fs-6 col-xs-6 fw-semibold button-white mb-md-1">
                     Meet Our Team
                   </div>
@@ -22,7 +22,7 @@ export default function Glance() {
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 d-lg-flex justify-content-center">
+          <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12 d-lg-flex justify-content-center">
             <img
               src="./images.jpg"
               alt=""
