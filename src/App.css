@@ -88,6 +88,7 @@
     font-size: large;
   }
 }
+
 @media screen and (min-width: 320px) and (max-width: 982px) {
   .container-custom:hover img {
     opacity: 0.6;
@@ -99,6 +100,7 @@
     font-size: small;
   }
 }
+
 @media screen and (min-width: 982px) and (max-width: 770px) {
 
   .container-custom:hover img {
@@ -118,17 +120,35 @@
   font-size: medium;
   padding: 0px 0px;
 }
-@media screen and (max-width: 487px){
-  .socialMedia
-  {
+
+@media screen and (max-width: 487px) {
+  .socialMedia {
     display: none;
   }
 }
+
 /*-------------------------------------------------------*/
 /* the slides*/
 .slick-slide {
   margin: 10px 0px;
   width: auto;
+}
+
+.copyRightArea{
+  background-color: #434343;
+  color: #c3c4c4;
+  word-spacing: 2px;
+}
+
+.footerLinkDecor {
+  border-bottom: 3px solid gray;
+}
+
+.footerLinks ,.footerLinks:hover{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 2;
+  margin-right: 10px;
 }
 
 .slick-track {
@@ -145,10 +165,12 @@
   color: #184E82 !important;
   background-color: #eee;
 }
-.slick-initialized .slick-slide{
+
+.slick-initialized .slick-slide {
   display: flex !important;
   justify-content: center;
 }
+
 /*-------------------------------------------------------*/
 @media only screen and (max-width:375px) {
   /* .slick-slide {
@@ -164,10 +186,12 @@
 #health {
   visibility: hidden !important;
 }
-.carousel-control-prev-icon ,
-.carousel-control-next-icon{
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
   background-color: #184E82 !important;
 }
+
 @media only screen and (min-width:320px) and (max-width:431px) {
   #hospital-contact {
     /* visibility:hidden; */
@@ -201,12 +225,13 @@
   #health {
     visibility: visible !important;
   }
-  #doc
-  {
+
+  #doc {
     display: flex !important;
     justify-content: center;
   }
-  .imgDoct{
+
+  .imgDoct {
     height: 100% !important;
     width: 100% !important;
     margin-left: 3%;
@@ -243,23 +268,26 @@
     margin-top: 56px;
   } */
 }
-.slider
-{
+
+.slider {
   height: 400px !important;
   width: 600px !important;
 }
+
 .image-custom {
   width: 100%;
 }
 
 @media (max-width: 1200px) {
-  
+
   #hospital-name,
   #hospital-contact {
     font-size: 10px !important;
   }
 }
+
 @media (min-width: 1024px) {
+
   .margin-top,
   .image-custom {
     height: 85vh;

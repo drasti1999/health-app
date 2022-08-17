@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="container-fluid mt-3 pt-5 pb-5 px-sm-4 px-3"
+        className="container-fluid mt-3 py-5 px-sm-4 px-3"
         style={{ backgroundColor: "#184E82" }}
       >
         <div
@@ -15,7 +15,7 @@ export default function Footer() {
             <div className="row mb-2">
               <div className="col-1">
                 <h5 className="text-white fw-bolder">
-                  <i className="fa fa-plus "></i>
+                  <i className="fa fa-plus"></i>
                 </h5>
               </div>
               <div className="col-11 fs-9">
@@ -79,73 +79,49 @@ export default function Footer() {
               <div className="col fs-9">
                 <a
                   href=""
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    paddingBottom: "2",
-                    marginRight: "10px",
-                  }}
+                  className="footerLinks"
                 >
-                  <span style={{ borderBottom: "3px solid gray" }}>About</span>
+                  <span className="footerLinkDecor">About</span>
                 </a>
 
                 <a
                   href=""
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    paddingBottom: "2",
-                    marginRight: "10px",
-                  }}
+                  className="footerLinks"
                 >
-                  <span style={{ borderBottom: "3px solid gray" }}>
+                  <span className="footerLinkDecor">
                     Departments
                   </span>
                 </a>
 
                 <a
                   href=""
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    paddingBottom: "2",
-                    marginRight: "10px",
-                  }}
+                  className="footerLinks"
                 >
-                  <span style={{ borderBottom: "3px solid gray" }}>
+                  <span className="footerLinkDecor">
                     Doctors
                   </span>
                 </a>
 
                 <a
                   href=""
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    paddingBottom: "2",
-                    marginRight: "10px",
-                  }}
+                  className="footerLinks"
                 >
-                  <span style={{ borderBottom: "3px solid gray" }}>
+                  <span className="footerLinkDecor">
                     Gallery
                   </span>
                 </a>
 
                 <a
                   href=""
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    paddingBottom: "2",
-                  }}
+                  className="footerLinks" 
                 >
-                  <span style={{ borderBottom: "3px solid gray" }}>
+                  <span className="footerLinkDecor">
                     Contact
                   </span>
                 </a>
               </div>
             </div>
-            <div className="row fs-9 align-start">
+            <div className="fs-9 align-start">
               <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
                 Carson Taohe Health is a Comprehensive healthcare network
                 featuring two hospitals, two urgent cares,an emergent care
@@ -160,12 +136,7 @@ export default function Footer() {
       </div>
 
       <div
-        className="text-center py-3"
-        style={{
-          backgroundColor: "#434343",
-          color: "#c3c4c4",
-          wordSpacing: "2px",
-        }}
+        className="text-center py-3 copyRightArea"
       >
         2021 &copy; Vaistra Technologies | Site Map | Website Privacy Policy
       </div>
