@@ -16,7 +16,7 @@ export default function About() {
           <div className="row">
             <div className="col-md-7 col-lg-7 col-sm-7 text-left fs-7 d-inline-flex">
             
-                <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
+                <p style={{ textAlign: "justify", textJustify: "break-word" }}>
                   <font color="#184E82" className="fw-bold">
                     Carson Tahoe Health
                   </font>
