@@ -134,6 +134,11 @@
   width: auto;
 }
 
+.footerParagraph {
+  text-align: justify;
+   text-justify: break-word;
+}
+
 .copyRightArea{
   background-color: #434343;
   color: #c3c4c4;

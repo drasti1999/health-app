@@ -122,7 +122,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="fs-9 align-start">
-              <p style={{ textAlign: "justify", textJustify: "inter-word" }}>
+              <p className="footerParagraph">
                 Carson Taohe Health is a Comprehensive healthcare network
                 featuring two hospitals, two urgent cares,an emergent care
                 center, poutpatient services and a provider network with 21
