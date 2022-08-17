@@ -47,6 +47,14 @@
   color: #184E82;
 }
 
+.bg-blue {
+  background-color: #184E82 !important;
+}
+
+.text-blue {
+  color: #184E82 !important;
+}
+
 .nav-link {
   text-transform: uppercase;
 }

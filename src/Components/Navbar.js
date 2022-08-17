@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12"
             id="FirstCol"
           >
-            <div className="row float-lg-start" style={{ marginLeft: "6px" }}>
+            <div className="row float-lg-start mx-3">
               <div
                 className="p-2 col-lg-4 col-md-3 col-sm-12 mx-xl-1 col-xs-6 fw-semibold button-white mb-md-1"
                 id="hospital-name"
