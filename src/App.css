@@ -55,6 +55,11 @@
   color: #184E82 !important;
 }
 
+.paragraph-about {
+  text-align: justify;
+  text-justify: break-word;
+}
+
 .nav-link {
   text-transform: uppercase;
 }
@@ -144,10 +149,18 @@
 
 .footerParagraph {
   text-align: justify;
-   text-justify: break-word;
+  text-justify: break-word;
 }
 
-.copyRightArea{
+#StickySocial {
+  transform: translate(-50%);
+  left: 100%;
+  top: 50%;
+  position: fixed;
+  height: fit-content;
+}
+
+.copyRightArea {
   background-color: #434343;
   color: #c3c4c4;
   word-spacing: 2px;
@@ -157,7 +170,8 @@
   border-bottom: 3px solid gray;
 }
 
-.footerLinks ,.footerLinks:hover{
+.footerLinks,
+.footerLinks:hover {
   color: white;
   text-decoration: none;
   padding-bottom: 2;

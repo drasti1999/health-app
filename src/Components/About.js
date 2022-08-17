@@ -8,16 +8,15 @@ export default function About() {
         <div className="row" style={{ width: "85%" }}>
           <h4
             align="left"
-            className="fw-bolder mt-5"
-            style={{ color: "#184E82" }}
+            className="fw-bolder mt-5 text-blue"
           >
             About
           </h4>
           <div className="row">
             <div className="col-md-7 col-lg-7 col-sm-7 text-left fs-7">
             
-                <p style={{ textAlign: "justify", textJustify: "break-word" }}>
-                  <font color="#184E82" className="fw-bold">
+                <p className="paragraph-about">
+                  <font className="fw-bold text-blue">
                     Carson Tahoe Health
                   </font>
                   &nbsp;is a stunning, 352,000 square foot facility that is set
@@ -32,9 +31,8 @@ export default function About() {
              
                 <span className="d-flex justify-content-center mt-4">
                   <button
-                    className="text-white border-0 fs-5 px-4 mx-2"
+                    className="text-white border-0 fs-5 px-4 mx-2 bg-blue"
                     style={{
-                      backgroundColor: "#184E82",
                       borderRadius: "5px 0px",
                     }}
                   >
@@ -99,16 +97,8 @@ export default function About() {
               </div>
             </div>
             <div
-              className="d-flex row p-0 text-white w-auto py-2"
+              className="d-flex row p-0 text-white w-auto py-2 bg-blue"
               id="StickySocial"
-              style={{
-                transform: "translate(-50%)",
-                left: "100%",
-                top: "50%",
-                position: "fixed",
-                backgroundColor: "#184E82",
-                height: "fit-content",
-              }}
             >
               <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <i className="fa-brands fa-facebook-f"></i>
