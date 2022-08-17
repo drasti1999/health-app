@@ -4,8 +4,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className="container-fluid  pb-2 pt-2 fixed-top"
-        style={{ backgroundColor: "#184E82" }}
+        className="container-fluid  pb-2 pt-2 fixed-top bg-blue"
       >
         <div className="row">
           <div className="col-lg-4 col-xl-4 col-md-5 col-sm-6 col-xs-12"
@@ -65,8 +64,7 @@ export default function Navbar() {
         </div>
         <nav className="navbar navbar-expand-md navbar-dark">
           <div
-            className="container-fluid w-100 justify-content-between "
-            style={{ backgroundColor: "#184E82" }}
+            className="container-fluid w-100 justify-content-between bg-blue"
           >
             <img
               src="/health.png"

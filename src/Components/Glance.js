@@ -3,7 +3,7 @@ import React from "react";
 export default function Glance() {
   return (
     <>
-      <div className="section mt-5 mb-5" style={{ backgroundColor: "#184E82" }}>
+      <div className="section mt-5 mb-5 bg-blue">
         <div className="row w-100">
           <div className="col-md-6 col-lg-6 col-sm-12 col-xs-12 my-3" id="doc">
             <div className="row">
@@ -38,8 +38,8 @@ export default function Glance() {
           <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h1
               align="left"
-              className="fw-bolder offset-lg-1 offset-md-2 offset-3 w-100"
-              style={{ color: "#184E82", fontSize: "30px" }}
+              className="fw-bolder offset-lg-1 offset-md-2 offset-3 w-100 text-blue"
+              style={{ fontSize: "30px" }}
             >
               At A Glance
             </h1>
@@ -49,14 +49,14 @@ export default function Glance() {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="row">
               <p
-                className="fw-bolder"
-                style={{ color: "#184E82", fontSize: "5rem" }}
+                className="fw-bolder text-blue"
+                style={{fontSize: "5rem" }}
               >
                 30+
               </p>
             </div>
             <div className="row">
-              <h4 className="fw-bolder" style={{ color: "#184E82" }}>
+              <h4 className="fw-bolder text-blue">
                 Number Of <br /> Doctors
               </h4>
             </div>
@@ -64,14 +64,14 @@ export default function Glance() {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="row">
               <p
-                className="fw-bolder"
-                style={{ color: "#184E82", fontSize: "5rem" }}
+                className="fw-bolder text-blue"
+                style={{  fontSize: "5rem" }}
               >
                 20k+
               </p>
             </div>
             <div className="row">
-              <h4 className="fw-bolder" style={{ color: "#184E82" }}>
+              <h4 className="fw-bolder text-blue">
                 Smiling
                 <br /> Faces
               </h4>
@@ -80,14 +80,14 @@ export default function Glance() {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="row">
               <p
-                className="fw-bolder"
-                style={{ color: "#184E82", fontSize: "5rem" }}
+                className="fw-bolder text-blue"
+                style={{ fontSize: "5rem" }}
               >
                 15+
               </p>
             </div>
             <div className="row">
-              <h4 className="fw-bolder" style={{ color: "#184E82" }}>
+              <h4 className="fw-bolder text-blue">
                 Awards & <br /> Achievements
               </h4>
             </div>
@@ -95,14 +95,14 @@ export default function Glance() {
           <div className="col-lg-3 col-md-6 col-sm-12">
             <div className="row">
               <p
-                className="fw-bolder"
-                style={{ color: "#184E82", fontSize: "5rem" }}
+                className="fw-bolder text-blue"
+                style={{ fontSize: "5rem" }}
               >
                 100+
               </p>
             </div>
             <div className="row">
-              <h4 className="fw-bolder" style={{ color: "#184E82" }}>
+              <h4 className="fw-bolder text-blue">
                 Free Health <br /> Camps
               </h4>
             </div>

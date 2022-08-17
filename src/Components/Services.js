@@ -66,7 +66,7 @@ export default class Services extends Component {
     };
     return (
       <div className="section pt-5 bg-gray">
-        <h4 className="fw-bolder offset-1" style={{ color: "#184E82" }}>
+        <h4 className="fw-bolder offset-1 text-blue">
           Services
         </h4>
 
@@ -100,7 +100,7 @@ export default class Services extends Component {
                 <div>
                   <img
                     src="https://img.icons8.com/ios-filled/50/000000/person-female--v1.png"
-                    style={{marginLeft:"5px"}}
+                    className="ms-2"
                     height={100}
                     width={100}
                   />

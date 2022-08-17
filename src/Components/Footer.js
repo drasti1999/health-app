@@ -4,8 +4,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="container-fluid mt-3 py-5 px-sm-4 px-3"
-        style={{ backgroundColor: "#184E82" }}
+        className="container-fluid mt-3 py-5 px-sm-4 px-3 bg-blue"
       >
         <div
           className="row mx-lg-5 text-white"

@@ -49,7 +49,7 @@ export default function Gallery() {
     <div className="container-fluid mt-5 pb-4 mx-0">
       <div className="offset-1">
       <div className="row">
-        <h4 align="left" className="fw-bolder" style={{ color: "#184E82",marginLeft:"0px" }}>
+        <h4 align="left" className="fw-bolder ms-0 text-blue">
           Gallery
         </h4>
       </div>
